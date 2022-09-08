@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { AiFillEye, AiOutlineCode } from 'react-icons/ai';
+import { AiOutlineCode } from 'react-icons/ai';
 
 import { motion } from 'framer-motion';
 
@@ -39,7 +39,7 @@ const Work = () => {
 
   return (
     <>
-      <h2 className="head-text">Here's my <span>Portfolio</span> Section</h2>
+      <h2 className="head-text">Here's my <span>Work</span> Section</h2>
 
       <div className="app__work-filter">
         {['Python', 'Data Viz', 'Data Analysis', 'ML', 'NLP', 'DL', 'All'].map((item, index) => (
