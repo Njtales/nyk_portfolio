@@ -177,20 +177,6 @@
   }
 }
 
-.app__scroll_top{
-  position: fixed;
-  border-bottom: 2rem;
-  right: 1.5rem;
-
-//  .bx{ 
-  padding: 8px;
-  font-size: 1.8rem;
-  color: var(--primary-color);
-  background-color: var(--secondary-color);
-  border-radius: 0.2rem;
-  
-}
-
 @media screen and (max-width: 500px) {
   .app__navigation,
   .app__social {
