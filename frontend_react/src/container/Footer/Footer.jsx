@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { motion } from 'framer-motion';
+import { AiOutlineArrowUp } from 'react-icons/ai';
 
 import { images } from '../../constants';
 import { AppWrap, MotionWrap } from '../../wrapper';
@@ -79,6 +81,16 @@ const Footer = () => {
           </h3>
         </div>
       )} */}
+      <a href='#home' target="_blank" rel="noreferrer">
+        <motion.div
+          whileInView={{ scale: [0, 1] }}
+          whileHover={{ scale: [1, 0.90] }}
+          transition={{ duration: 0.20 }}
+          className="app__flex"
+          >
+          <AiOutlineArrowUp />
+        </motion.div>
+      </a>
     </>
   );
 };
