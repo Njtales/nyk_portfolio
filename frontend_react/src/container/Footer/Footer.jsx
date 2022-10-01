@@ -82,13 +82,15 @@ const Footer = () => {
         </div>
       )} */}
       
-      <div className='app__footer-arrow'> 
+
+      {/* for top arrow button */}
+      {/* <div className='app__footer-arrow'> 
         <div className='app__footer-uparrow'>
           <a href='#home'>
           <BiUpArrowAlt />
           </a> 
         </div>
-      </div>
+      </div> */}
       
     </>
   );
