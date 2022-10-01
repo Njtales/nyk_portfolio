@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { BiUpArrowAlt } from 'react-icons/bi';
 
 import { images } from '../../constants';
 import { AppWrap, MotionWrap } from '../../wrapper';
@@ -79,7 +80,9 @@ const Footer = () => {
           </h3>
         </div>
       )} */}
-      
+      <a href='#home'>
+      <BiUpArrowAlt />
+      </a> 
     </>
   );
 };

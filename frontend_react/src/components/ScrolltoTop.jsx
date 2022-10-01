@@ -3,7 +3,7 @@ import { BiUpArrowAlt } from 'react-icons/bi';
 
 const ScrolltoTop = () => (
   <div className="app__scrolltop">
-    <a hreaf='#home'>
+    <a href='#home'>
     <BiUpArrowAlt />
     </a>    
   </div>
