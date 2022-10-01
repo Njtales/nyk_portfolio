@@ -39,7 +39,7 @@ const Footer = () => {
   return (
     <>
       <h2 className="head-text">Let's have a chat. </h2>
-      <div className="app__footer-left_img">
+        <div className="app__footer-left_img">
           <img src={images.footerleft} alt="email"/>
           
         <div className="app__footer-cards">
@@ -53,6 +53,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      
       {/* {!isFormSubmitted ? (
         
         <div className="app__footer-form app__flex">
@@ -80,13 +81,15 @@ const Footer = () => {
           </h3>
         </div>
       )} */}
-      <div className='app__footer-uparrow'>
-        <div>
+      
+      <div className='app__footer-arrow'> 
+        <div className='app__footer-uparrow'>
           <a href='#home'>
           <BiUpArrowAlt />
           </a> 
         </div>
       </div>
+      
     </>
   );
 };
