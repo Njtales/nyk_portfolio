@@ -11,16 +11,19 @@ const Skills = () => {
   const [skills, setSkills] = useState([]);
 
   useEffect(() => {
-    const query = '*[_type == "experiences"]';
+    const experienceQuery = '*[_type == "experiences"]';
     const skillsQuery = '*[_type == "skills"]';
 
-    client.fetch(query).then((data) => {
-      setExperiences(data);
-    });
+    async function getSkillsAndExp() {
+      const experienceData = await client.fetch(experienceQuery);
+      const skillsData = await client.fetch(skillsQuery);
 
-    client.fetch(skillsQuery).then((data) => {
-      setSkills(data);
-    });
+      experienceData.sort((a,b) => (a.year > b.year ? 1 : -1));
+      setSkills(skillsData);
+      setExperiences(experienceData)
+    }
+    getSkillsAndExp();
+
   }, []);
 
   return (
