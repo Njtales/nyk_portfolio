@@ -18,26 +18,39 @@ const scaleVariants = {
 
 const Header = () => (
   <div className="app__header app__flex">
-    <motion.div
-      whileInView={{ x: [-100, 0], opacity: [0, 1] }}
-      transition={{ duration: 0.5 }}
-      className="app__header-info"
-    >
-      <div className="app__header-badge">
-        <div className="badge-cmp app__flex">
-          <span>👋</span>
-          <div style={{ marginLeft: 20 }}>
-            <p className="p-text">Hello, I am</p>
-            <h1 className="head-text">Nikhil</h1>
+    <div>
+      <motion.div
+        whileInView={{ x: [-100, 0], opacity: [0, 1] }}
+        transition={{ duration: 0.5 }}
+        className="app__header-info"
+      >
+        <div className="app__header-badge">
+          <div className="badge-cmp app__flex">
+            <span>👋</span>
+            <div style={{ marginLeft: 20 }}>
+              <p className='header-text'> HELLO!</p>
+            </div>
           </div>
-        </div>
 
-        <div className="tag-cmp app__flex">
-          <p className="p-text">Data Analyst</p>
-          <p className="p-text">Software Developer</p>
+          <div className="tag-cmp app__flex">
+            <p className="header-name">I'm     <span className='name'>Nikhil <br/> Jatale</span></p>
+          </div>
+          
         </div>
-      </div>
-    </motion.div>
+      </motion.div>
+    <h2 className="header-text">A  Software Developer 4 years<br/> Experience</h2>
+    </div>
+    {/* <motion.div
+      variants={scaleVariants}
+      whileInView={scaleVariants.whileInView}
+      className="app__header-circles"
+    >
+      {[images.python, images.dataviz, images.db].map((circle, index) => (
+        <div className="circle-cmp app__flex" key={`circle-${index}`}>
+          <img src={circle} alt="profile_bg" />
+        </div>
+      ))}
+    </motion.div> */}
 
     <motion.div
       whileInView={{ opacity: [0, 1] }}
@@ -54,17 +67,6 @@ const Header = () => (
       />
     </motion.div>
 
-    <motion.div
-      variants={scaleVariants}
-      whileInView={scaleVariants.whileInView}
-      className="app__header-circles"
-    >
-      {[images.python, images.dataviz, images.db].map((circle, index) => (
-        <div className="circle-cmp app__flex" key={`circle-${index}`}>
-          <img src={circle} alt="profile_bg" />
-        </div>
-      ))}
-    </motion.div>
   </div>
 );
 
