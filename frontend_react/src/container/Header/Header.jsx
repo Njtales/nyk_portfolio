@@ -18,7 +18,7 @@ const scaleVariants = {
 
 const Header = () => (
   <div className="app__header app__flex">
-    <div>
+    <div className='header-aboutsection'>
       <motion.div
         whileInView={{ x: [-100, 0], opacity: [0, 1] }}
         transition={{ duration: 0.5 }}
@@ -33,13 +33,28 @@ const Header = () => (
           </div>
 
           <div className="tag-cmp app__flex">
-            <p className="header-name">I'm     <span className='name'>Nikhil <br/> Jatale</span></p>
+            <p>I'm <span className='name'>Nikhil <br/> Jatale</span></p>
           </div>
           
         </div>
       </motion.div>
-    <h2 className="header-text">A  Software Developer 4 years<br/> Experience</h2>
+      <div className="header-intro">
+        <h2>A four years experienced Software Developer, Data Analyst.<br/>I like problem solving, learning new skills. Love to spend my time in sketching and photography!</h2>
+      </div>
+
+      <div>
+        <div>
+          hire me
+        </div>
+        <div>
+          download cv
+        </div>
+      </div>
+
+      
     </div>
+
+    {/* flying circles code */}
     {/* <motion.div
       variants={scaleVariants}
       whileInView={scaleVariants.whileInView}
@@ -66,7 +81,6 @@ const Header = () => (
         className="overlay_circle"
       />
     </motion.div>
-
   </div>
 );
 

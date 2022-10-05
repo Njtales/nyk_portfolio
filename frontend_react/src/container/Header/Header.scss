@@ -36,21 +36,36 @@
   }
 }
 
-.app__header-info {
-  flex: 0.65;
+
+.header-aboutsection{
+  flex: 0.5;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  height: 100%;
-
-  margin: 0 2rem;
+  height: 80%;
 
   @media screen and (max-width: 1200px) {
     width: 100%;
     margin-right: 0rem;
   }
+  // .app__header-info {
+  //   flex: 1;
+  //   display: flex;
+  //   flex-direction: column;
+  //   justify-content: flex-start;
+  //   align-items: flex-start;
+  //   height: 100%;
+
+  //   margin: 0 2rem;
+
+  //   @media screen and (max-width: 1200px) {
+  //     width: 100%;
+  //     margin-right: 0rem;
+  //   }
+  // }
 }
+
 
 .app__header-badge {
   width: 100%;
@@ -69,20 +84,30 @@
   }
 
   .tag-cmp {
-    padding: 1rem 20rem;
-    flex-direction: column;
+    padding: 2rem 5rem 0.1rem;
+    flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
 
     p {
+      font-size: 2rem;
       width: 100%;
       text-transform: uppercase;
-      text-align: right;
+      text-align: left;
+    }
+    .name{
+      font-size: 6rem;
+      font-family: 'Merienda One', cursive;     
+      font-weight: 900;
+      
+    }
+    @media screen and (min-width: 2000px) {
+      font-size: 8.5rem;
     }
   }
 
   span {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
 
     @media screen and (min-width: 2000px) {
       font-size: 5rem;
@@ -92,8 +117,10 @@
   @media screen and (max-width: 1200px) {
     justify-content: flex-start;
     align-items: flex-start;
+    font-size: 2rem;
   }
 }
+
 .header-text{
   font-size: 1.5rem;
   @media screen and (min-width: 2000px) {
@@ -106,22 +133,12 @@
   align-items: flex-start;
 }
 
-.header-name{
-  font-size: 1.5rem;
 
-  .name{
-    font-size: 5.5rem;
-    font-family: sans-serif;
-    font-weight: 900;
-  }
-  @media screen and (min-width: 2000px) {
-    font-size: 3.5rem;
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  justify-content: flex-start;
-  align-items: flex-start;
+.header-intro{
+  // padding: 1rem 1rem;
+  font-size: 1rem;
+  // font-family: monospace;
+  
 }
 
 .app__header-circles {
