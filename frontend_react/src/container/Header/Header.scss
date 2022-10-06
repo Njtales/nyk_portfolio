@@ -42,13 +42,53 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: flex-start;
-  height: 80%;
+  align-items: center;
+  height: 90%;
+  // margin-right: 20rem;
+  // margin-left: 15rem;
 
   @media screen and (max-width: 1200px) {
     width: 100%;
     margin-right: 0rem;
   }
+
+
+  .CVdownload-button{
+    padding: 2rem 2rem 2rem 2rem;
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+
+  button {
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    letter-spacing: 0.1rem;
+    border: none;
+    background-color: #fef4f5;
+    border-radius: 25px;
+    font-weight: 700;
+    outline: none;
+    cursor: pointer;
+    // margin: 0.75rem 0;
+    margin: 2rem 0 0 0;
+    font-family: var(--font-base);
+
+    transition: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+    cursor: pointer;
+
+    &:hover {
+      box-shadow: 0 0 10px var(--secondary-color);
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    margin: 1rem 0;
+  }
+
   // .app__header-info {
   //   flex: 1;
   //   display: flex;
@@ -84,15 +124,15 @@
   }
 
   .tag-cmp {
-    padding: 2rem 5rem 0.1rem;
+    padding: 2rem 2rem 0.1rem;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: flex-end;
 
     p {
       font-size: 2rem;
       width: 100%;
-      text-transform: uppercase;
+      // text-transform: uppercase;
       text-align: left;
     }
     .name{
@@ -108,6 +148,7 @@
 
   span {
     font-size: 3.5rem;
+    cursor: pointer;
 
     @media screen and (min-width: 2000px) {
       font-size: 5rem;

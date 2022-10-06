@@ -1,4 +1,7 @@
 import images from './images';
-
-export { images };
+import cv from './cv';
+export {
+  images,
+  cv
+ };
 

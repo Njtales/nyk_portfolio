@@ -1,8 +1,9 @@
 import React from 'react';
+import { cv } from '../../constants';
 import { motion } from 'framer-motion';
-
 import { AppWrap } from '../../wrapper';
 import { images } from '../../constants';
+
 import './Header.scss';
 
 const scaleVariants = {
@@ -33,7 +34,7 @@ const Header = () => (
           </div>
 
           <div className="tag-cmp app__flex">
-            <p>I'm <span className='name'>Nikhil <br/> Jatale</span></p>
+            <p>I'm <span className='name'>NIKHIL <br/> JATALE</span></p>
           </div>
           
         </div>
@@ -44,10 +45,14 @@ const Header = () => (
 
       <div>
         <div>
-          hire me
+          {/* hire me, insert a button if want to */}
         </div>
-        <div>
-          download cv
+        <div className="CVdownload-button">
+          <a href = {cv} download = {cv}>
+            <button type='submit'>
+              Download CV
+            </button>
+          </a>
         </div>
       </div>
 

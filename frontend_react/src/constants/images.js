@@ -13,6 +13,8 @@ import circle from '../assets/circle.svg';
 import logo from '../assets/logo.png';
 import footerleft from '../assets/footerleft.png';
 
+import cv from '../assets/cv/Nikhil Jatale CV.pdf'
+
 export default {
   email,
   mobile,
@@ -25,5 +27,6 @@ export default {
   python,
   profile,
   circle,
-  logo
+  logo,
+  cv,
 };
