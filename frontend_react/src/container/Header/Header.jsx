@@ -43,7 +43,7 @@ const Header = () => (
           
         </div>
       </motion.div>
-      <div className="header-intro">
+      <div className="header-text">
         <h2>A four years experienced Software Developer, Data Analyst.<br/>I like problem solving, learning new skills. Love to spend my time in sketching and photography!</h2>
       </div>
 
