@@ -17,17 +17,17 @@
 }
 
 .app__navbar-logo {
+  padding: 0rem 0rem 0rem 0rem ;
   display: flex;
   justify-content: flex-start;
   align-items: center;
 
   img {
-    width: 90px;
-    height: 20px;
-
+    width: 135px;
+    height: 50px;
     @media screen and (min-width: 2000px) {
-      width: 180px;
-      height: 40px;
+      width: 175px;
+      height: 80px;
     }
   }
 }
