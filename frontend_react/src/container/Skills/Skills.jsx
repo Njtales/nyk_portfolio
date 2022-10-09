@@ -75,7 +75,7 @@ const Skills = () => {
                     <ReactTooltip
                       id={work.name}
                       effect="solid"
-                      arrowColor="#fff"
+                      arrowColor="#4E433D"
                       className="skills-tooltip"
                     >
                       {work.desc}

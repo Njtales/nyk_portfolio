@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { BiUpArrowAlt } from 'react-icons/bi';
-
 import { images } from '../../constants';
 import { AppWrap, MotionWrap } from '../../wrapper';
 import { client } from '../../client';
@@ -46,6 +45,10 @@ const Footer = () => {
           <div className="app__footer-card ">
             <img src={images.email} alt="email" />
             <a href="mailto:hello@njtales.com" className="p-text">hello@njtales.com</a>
+          </div>
+          <div className="app__footer-card">
+            <img src={images.whatsapp} alt="phone" />
+            <a href="https://wa.me/447826343049" className="p-text">+44 7826343049</a>
           </div>
           <div className="app__footer-card">
             <img src={images.mobile} alt="phone" />

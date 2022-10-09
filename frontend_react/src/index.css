@@ -2,17 +2,11 @@
 
 :root {
   --font-base: "DM Sans", sans-serif;
-
-  --primary-color: #edf2f8;
-  --secondary-color: #313bac;
-  --black-color: #030303;
-  --lightGray-color: #e4e4e4;
-  --gray-color: #6b7688;
-  --brown-color: #46364a;
-  --white-color: #ffffff;
-
-  --yellow-color: #E4D00A;
-  --tryyellow-color: #DFFF00;
+  /* --lightlightblack-color: #3b2f28; */
+  /* --darkyellow-color: #e4ce0ab2; */
+  
+  --yellow-color: #d1bf09;  /*#d1bf09; E4D00A*/
+  --tryyellow-color: #FEDC00; /*#DFFF00;*/
   --black-color: #000000;
   --white-color: #ffffff;
   --lightblack-color: #3b2f28;

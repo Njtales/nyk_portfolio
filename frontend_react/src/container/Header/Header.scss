@@ -209,7 +209,7 @@
 .app__header-circles {
   flex: 0.75;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-evenly;
   align-items: flex-end;
   height: 100%;
@@ -221,7 +221,7 @@
     height: 100px;
     border-radius: 50%;
 
-    background: var(--tryyellow-color);
+    background: var(--lightblack-color);
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 
     img {

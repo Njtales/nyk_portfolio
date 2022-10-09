@@ -1,5 +1,5 @@
 import React from 'react';
-import { cv } from '../../constants';
+// import { cv } from '../../constants';
 import { motion } from 'framer-motion';
 import { AppWrap } from '../../wrapper';
 import { images } from '../../constants';
@@ -52,7 +52,7 @@ const Header = () => (
           {/* hire me, insert a button if want to */}
         </div>
         <div className="CVdownload-button">
-          <a href = {cv} download = {cv}>
+          <a href = "https://drive.google.com/u/0/uc?id=14oVc0pQ-lry4iDLgu_NPT3Vm675YTR_w&export=download">
             <button type='submit'>
               Download CV
             </button>
