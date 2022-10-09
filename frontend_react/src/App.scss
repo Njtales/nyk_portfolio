@@ -1,5 +1,5 @@
 .app {
-  background-color: var(--yellow-color);
+  background-color: var(--secondary-color);
   font-family: var(--font-base);
 }
 
@@ -47,7 +47,7 @@
 
   p {
     text-transform: uppercase;
-    color: var(--yellow-color);
+    color: var(--secondary-color);
   }
 }
 
@@ -55,11 +55,11 @@
   font-size: 2.75rem;
   font-weight: 800;
   text-align: center;
-  color: var(--yellow-color);
-  text-transform: capitalize;
+  color: var(--secondary-color);
+  // text-transform: capitalize;
 
   span {
-    color: var(--tryyellow-color);
+    color: var(--yellow-color);
     font-style: italic;
   }
 
@@ -75,7 +75,7 @@
 .p-text {
   font-size: 1rem;
   text-align: left;
-  color: var(--yellow-color);
+  color: var(--secondary-color);
   line-height: 1.5;
 
   @media screen and (min-width: 2000px) {
@@ -89,7 +89,7 @@
 .bold-text {
   font-size: 1rem;
   font-weight: 800;
-  color: var(--tryyellow-color);
+  color: var(--yellow-color);
   text-align: left;
 
   @media screen and (min-width: 2000px) {
@@ -115,7 +115,7 @@
     border-radius: 50%;
     background-color: var(--lightblack-color);
     margin: 0.3rem 0;
-    border: 1px solid var(--yellow-color);
+    border: 1px solid var(--secondary-color);
 
     display: flex;
     justify-content: center;
@@ -126,15 +126,15 @@
     svg {
       width: 15px;
       height: 15px;
-      color: var(--yellow-color);
+      color: var(--secondary-color);
     }
 
     &:hover {
       background-color: var(--black-color);
-      border-color: var(--tryyellow-color);
+      border-color: var(--white-color);
 
       svg {
-        color: var(--tryyellow-color);
+        color: var(--white-color);
       }
     }
 
@@ -164,13 +164,13 @@
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background-color: var(--yellow-color);
+    background-color: var(--secondary-color);
     margin: 0.5rem;
 
     transition: background-color 0.2s ease-in-out;
 
     &:hover {
-      background-color: var(--tryyellow-color);
+      background-color: var(--yellow-color);
     }
 
     @media screen and (min-width: 2000px) {

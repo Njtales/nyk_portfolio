@@ -56,7 +56,7 @@
     }
 
     a {
-      color: var(--yellow-color);
+      color: var(--secondary-color);
       text-decoration: none;
       flex-direction: column;
 
@@ -66,7 +66,7 @@
       transition: all 0.3s ease-in-out;
 
       &:hover {
-        color: var(--tryyellow-color);
+        color: var(--yellow-color);
       }
     }
 
@@ -91,7 +91,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--yellow-color);
+  background-color: var(--secondary-color);
 
 
   svg {
@@ -146,7 +146,7 @@
         margin: 1rem;
 
         a {
-          color: var(--yellow-color);
+          color: var(--secondary-color);
           text-decoration: none;
           font-size: 1rem;
           text-transform: uppercase;
@@ -155,7 +155,7 @@
           transition: all 0.3s ease-in-out;
 
           &:hover {
-            color: var(--tryyellow-color);
+            color: var(--yellow-color);
           }
         }
       }

@@ -93,7 +93,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    color: var(--yellow-color);
+    color: var(--secondary-color);
 
     p {
       font-size: 2rem;
@@ -102,7 +102,7 @@
         font-size: 4rem;
         font-family: 'Merienda One', cursive;     
         font-weight: 800;
-        color: var(--tryyellow-color);
+        color: var(--yellow-color);
         
       }
       @media screen and (min-width: 2000px) {
@@ -159,7 +159,7 @@
 
 .header-text{
   font-size: 1.5rem;
-  color: var(--yellow-color);
+  color: var(--secondary-color);
 
   @media screen and (min-width: 2000px) {
     font-size: 1.5rem;
@@ -186,7 +186,7 @@
 .header-intro{
   padding: 1rem 2rem;
   font-size: 1rem;
-  color: var(--yellow-color);
+  color: var(--secondary-color);
 
   @media screen and (min-width: 2000px) {
     font-size: 1.5rem;
@@ -338,13 +338,13 @@ button {
   // margin: 0.75rem 0;
   margin: 2rem 0 0 0;
   font-family: var(--font-base);
-  color: var(--yellow-color);
+  color: var(--secondary-color);
 
   transition: cubic-bezier(0.55, 0.085, 0.68, 0.53);
   cursor: pointer;
 
   &:hover {
-    box-shadow: 0 0 10px var(--yellow-color);
+    box-shadow: 0 0 5px var(--secondary-color);
   }
 }
 

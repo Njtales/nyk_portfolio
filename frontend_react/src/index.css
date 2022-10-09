@@ -2,14 +2,12 @@
 
 :root {
   --font-base: "DM Sans", sans-serif;
-  /* --lightlightblack-color: #3b2f28; */
-  /* --darkyellow-color: #e4ce0ab2; */
-  
-  --yellow-color: #d1bf09;  /*#d1bf09; E4D00A*/
-  --tryyellow-color: #FEDC00; /*#DFFF00;*/
-  --black-color: #000000;
+
   --white-color: #ffffff;
-  --lightblack-color: #3b2f28;
+  --secondary-color: #e4e4e4;
+  --yellow-color: #FFD700; 
+  --black-color: #022C43;
+  --lightblack-color: #053F5E;
 
 }
 

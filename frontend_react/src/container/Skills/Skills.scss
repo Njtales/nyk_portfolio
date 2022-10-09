@@ -51,7 +51,7 @@
     }
 
     &:hover {
-      box-shadow: 0 0 15px #523c25;
+      box-shadow: 0 0 15px var(--black-color);
     }
 
     @media screen and (min-width: 2000px) {
@@ -117,7 +117,7 @@
 
     p {
       font-weight: 400;
-      color: var(--yellow-color);
+      color: var(--secondary-color);
       margin-top: 5px;
     }
   }
@@ -128,7 +128,7 @@
 
   p {
     font-weight: 800;
-    color: var(--yellow-color);
+    color: var(--secondary-color);
   }
 
   @media screen and (max-width: 450px) {
@@ -142,7 +142,7 @@
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.2) !important;
   border-radius: 5px !important;
   padding: 1rem !important;
-  color: var(--yellow-color) !important;
+  color: var(--secondary-color) !important;
   text-align: center !important;
   line-height: 1.5 !important;
   opacity: 1 !important;

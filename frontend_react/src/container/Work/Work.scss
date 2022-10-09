@@ -16,7 +16,7 @@
   .app__work-filter-item {
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
-    background-color: var(--yellow-color);
+    background-color: var(--secondary-color);
     color: #000;
     font-weight: 800;
 
@@ -25,7 +25,7 @@
     margin: 0.5rem;
 
     &:hover {
-      background-color: var(--tryyellow-color);
+      background-color: var(--yellow-color);
       color: #000;
     }
 
@@ -36,7 +36,7 @@
   }
 
   .item-active {
-    background-color: var(--tryyellow-color);
+    background-color: var(--yellow-color);
     color: #000;
   }
 }
@@ -61,7 +61,7 @@
     transition: all 0.3s ease;
 
     &:hover {
-      box-shadow: 0 0 25px rgba(255, 255, 255, 0.25);
+      box-shadow: 0 0 12px rgba(255, 255, 255, 0.25);
     }
 
     @media screen and (min-width: 2000px) {
@@ -126,7 +126,7 @@
     svg {
       width: 50%;
       height: 50%;
-      color: var(--tryyellow-color);
+      color: var(--white-color);
     }
   }
 }

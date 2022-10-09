@@ -63,7 +63,7 @@
         font-weight: 700;
       }
       &:hover {
-        box-shadow: 0 0 5px var(--yellow-color);
+        box-shadow: 0 0 5px var(--secondary-color);
       }
 
       @media screen and (max-width: 450px) {
@@ -87,7 +87,7 @@
 }
 
 .app__footer-cards .app__footer-card:last-child:hover {
-  box-shadow: 0 0 5px var(--yellow-color);
+  box-shadow: 0 0 5px var(--secondary-color);
 }
 
 .app__footer-form {
@@ -114,7 +114,7 @@
       background-color: var(--lightblack-color);
 
       font-family: var(--font-base);
-      color: var(--yellow-color);
+      color: var(--secondary-color);
       outline: none;
     }
 
@@ -123,7 +123,7 @@
     }
 
     &:hover {
-      box-shadow: 0 0 5px var(--yellow-color);
+      box-shadow: 0 0 5px var(--secondary-color);
     }
   }
 
@@ -131,7 +131,7 @@
     padding: 1rem 2rem;
     border-radius: 10px;
     border: none;
-    background-color: var(--yellow-color);
+    background-color: var(--secondary-color);
 
     font-weight: 500;
     color: var(--black-color);
@@ -143,7 +143,7 @@
     cursor: pointer;
 
     &:hover {
-      background-color: var(--tryyellow-color);
+      background-color: var(--yellow-color);
     }
   }
 
@@ -171,22 +171,22 @@ right: 0px;
   border-radius: 50%;
   background-color: var(--lightblack-color);
   margin: 0.25rem 0;
-  border: 1px solid var(--yellow-color);
+  border: 1px solid var(--secondary-color);
 
   transition: all 0.3s ease-in-out;
 
     svg {
       width: 30px;
       height: 30px;
-      color: var(--yellow-color);
+      color: var(--secondary-color);
     }
 
     &:hover {
       background-color: var(--black-color);
-      border-color: var(--tryyellow-color);
+      border-color: var(--secondary-color);
 
       svg {
-        color: var(--tryyellow-color);
+        color: var(--secondary-color);
       }
     }
 
