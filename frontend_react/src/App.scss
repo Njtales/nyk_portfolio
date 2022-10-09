@@ -1,14 +1,14 @@
 .app {
-  background-color: var(--primary-color);
+  background-color: var(--yellow-color);
   font-family: var(--font-base);
 }
 
 .app__whitebg {
-  background-color: var(--white-color);
+  background-color: var(--lightblack-color);
 }
 
 .app__primarybg {
-  background-color: var(--primary-color);
+  background-color: var(--black-color);
 }
 
 .app__container {
@@ -47,7 +47,7 @@
 
   p {
     text-transform: uppercase;
-    color: var(--black-color);
+    color: var(--yellow-color);
   }
 }
 
@@ -55,11 +55,11 @@
   font-size: 2.75rem;
   font-weight: 800;
   text-align: center;
-  color: var(--black-color);
+  color: var(--yellow-color);
   text-transform: capitalize;
 
   span {
-    color: var(--secondary-color);
+    color: var(--tryyellow-color);
     font-style: italic;
   }
 
@@ -73,20 +73,23 @@
 }
 
 .p-text {
-  font-size: 0.8rem;
+  font-size: 1rem;
   text-align: left;
-  color: var(--gray-color);
+  color: var(--yellow-color);
   line-height: 1.5;
 
   @media screen and (min-width: 2000px) {
     font-size: 1.75rem;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 0.9rem;
   }
 }
 
 .bold-text {
   font-size: 1rem;
   font-weight: 800;
-  color: var(--black-color);
+  color: var(--tryyellow-color);
   text-align: left;
 
   @media screen and (min-width: 2000px) {
@@ -110,9 +113,9 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: var(--white-color);
-    margin: 0.25rem 0;
-    border: 1px solid var(--lightGray-color);
+    background-color: var(--lightblack-color);
+    margin: 0.3rem 0;
+    border: 1px solid var(--yellow-color);
 
     display: flex;
     justify-content: center;
@@ -123,15 +126,15 @@
     svg {
       width: 15px;
       height: 15px;
-      color: var(--gray-color);
+      color: var(--yellow-color);
     }
 
     &:hover {
-      background-color: var(--secondary-color);
-      border-color: var(--secondary-color);
+      background-color: var(--black-color);
+      border-color: var(--tryyellow-color);
 
       svg {
-        color: var(--white-color);
+        color: var(--tryyellow-color);
       }
     }
 
@@ -161,13 +164,13 @@
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background-color: #cbcbcb;
+    background-color: var(--yellow-color);
     margin: 0.5rem;
 
     transition: background-color 0.2s ease-in-out;
 
     &:hover {
-      background-color: var(--secondary-color);
+      background-color: var(--tryyellow-color);
     }
 
     @media screen and (min-width: 2000px) {
@@ -187,9 +190,6 @@
     padding: 2rem;
   }
 }
-
-
-
 
 // .wrapper {
 //   position: fixed;

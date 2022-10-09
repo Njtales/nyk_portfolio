@@ -1,22 +1,19 @@
-import email from '../assets/email.png';
-import mobile from '../assets/mobile.png';
-
-import git from '../assets/git.png';
-import graphql from '../assets/graphql.png';
-
-import python from '../assets/python.png';
-import dataviz from '../assets/dataviz.png';
-import db from '../assets/db.png';
-// import tempi from '../assets/footercontact_r.png';
-import profile from '../assets/profile.png';
-import circle from '../assets/circle.svg';
-import logo from '../assets/logo.png';
-import footerleft from '../assets/footerleft.png';
+import email from '../assets/images/email.png';
+import mobile from '../assets/images/mobile.png';
+import git from '../assets/images/git.png';
+import graphql from '../assets/images/graphql.png';
+import python from '../assets/images/python.png';
+import dataviz from '../assets/images/dataviz.png';
+import db from '../assets/images/db.png';
+import profile from '../assets/images/profile.png';
+import circle from '../assets/images/circle.svg';
+import logo from '../assets/images/logo.png';
+import footerleft from '../assets/images/footerleft.png';
+import cv from '../assets/cv/Nikhil Jatale CV.pdf'
 
 export default {
   email,
   mobile,
-  // tempi,
   footerleft,
   git,
   graphql,
@@ -25,5 +22,6 @@ export default {
   python,
   profile,
   circle,
-  logo
+  logo,
+  cv,
 };

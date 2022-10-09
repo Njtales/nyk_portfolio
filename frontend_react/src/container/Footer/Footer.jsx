@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { BiUpArrowAlt } from 'react-icons/bi';
 
 import { images } from '../../constants';
 import { AppWrap, MotionWrap } from '../../wrapper';
@@ -38,7 +39,7 @@ const Footer = () => {
   return (
     <>
       <h2 className="head-text">Let's have a chat. </h2>
-      <div className="app__footer-left_img">
+        <div className="app__footer-left_img">
           <img src={images.footerleft} alt="email"/>
           
         <div className="app__footer-cards">
@@ -52,6 +53,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      
       {/* {!isFormSubmitted ? (
         
         <div className="app__footer-form app__flex">
@@ -79,6 +81,17 @@ const Footer = () => {
           </h3>
         </div>
       )} */}
+      
+
+      {/* for top arrow button */}
+      {/* <div className='app__footer-arrow'> 
+        <div className='app__footer-uparrow'>
+          <a href='#home'>
+          <BiUpArrowAlt />
+          </a> 
+        </div>
+      </div> */}
+      
     </>
   );
 };

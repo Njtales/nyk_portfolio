@@ -27,6 +27,7 @@ const SocialMedia = () => (
         <BsGithub />
       </a>
     </div>
+    
   </div>
 );
 
