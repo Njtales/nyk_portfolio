@@ -16,7 +16,7 @@
   .app__work-filter-item {
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
-    background-color: #fff;
+    background-color: var(--yellow-color);
     color: #000;
     font-weight: 800;
 
@@ -25,8 +25,8 @@
     margin: 0.5rem;
 
     &:hover {
-      background-color: var(--secondary-color);
-      color: #fff;
+      background-color: var(--tryyellow-color);
+      color: #000;
     }
 
     @media screen and (min-width: 2000px) {
@@ -36,8 +36,8 @@
   }
 
   .item-active {
-    background-color: var(--secondary-color);
-    color: #fff;
+    background-color: var(--tryyellow-color);
+    color: #000;
   }
 }
 
@@ -54,14 +54,14 @@
     margin: 2rem;
     padding: 1rem;
     border-radius: 0.5rem;
-    background-color: #fff;
+    background-color: var(--lightblack-color);
     color: rgb(0, 0, 0);
 
     cursor: pointer;
     transition: all 0.3s ease;
 
     &:hover {
-      box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+      box-shadow: 0 0 25px rgba(255, 255, 255, 0.25);
     }
 
     @media screen and (min-width: 2000px) {
@@ -114,7 +114,8 @@
     height: 50px;
     border-radius: 50%;
     background-color: rgba(0, 0, 0, 0.5);
-    color: #fff;
+    color: #fff;         
+    // need_edit
 
     margin: 1rem;
     font-family: var(--font-base);
@@ -125,7 +126,7 @@
     svg {
       width: 50%;
       height: 50%;
-      color: var(--white-color);
+      color: var(--tryyellow-color);
     }
   }
 }
@@ -150,7 +151,7 @@
 
     padding: 0.5rem 1rem;
     border-radius: 10px;
-    background-color: #fff;
+    background-color: var(--lightblack-color);
     top: -25px;
   }
 }
