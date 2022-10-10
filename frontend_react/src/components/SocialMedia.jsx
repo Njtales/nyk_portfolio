@@ -8,22 +8,22 @@ const SocialMedia = () => (
       <BsTwitter />
     </div> */}
     <div>
-      <a href='https://www.facebook.com/nikhiljatale'>
+      <a href='https://www.facebook.com/nikhiljatale' target='_blank' rel='noreferrer'>
         <FaFacebookF />
       </a>
     </div>
     <div>
-      <a href='https://www.instagram.com/njtales/'>
+      <a href='https://www.instagram.com/njtales/' target='_blank' rel='noreferrer'>
         <BsInstagram />
       </a>
     </div>
     <div>
-      <a href='https://www.linkedin.com/in/nikhil-jatale/'>
+      <a href='https://www.linkedin.com/in/nikhil-jatale/' target='_blank' rel='noreferrer'>
         <BsLinkedin /> 
       </a>      
     </div>
     <div>
-      <a href='https://github.com/Njtales'>
+      <a href='https://github.com/Njtales' target='_blank' rel='noreferrer'>
         <BsGithub />
       </a>
     </div>
