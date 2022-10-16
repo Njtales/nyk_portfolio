@@ -44,7 +44,7 @@ const Header = () => (
         </div>
       </motion.div>
       <div className="header-text">
-        <h2>I am a motivated software developer with experience in analyzing and finding hidden insights in the data, visualizing reports, and building prediction models. <br/>Skilled in machine learning, ETL, data visualization, problem-solving, and programming.</h2>
+        <h2>I am a motivated software developer/data analyst with experience in analyzing and finding hidden insights in the data, visualizing reports, and building prediction models. <br/>Skilled in machine learning, ETL, data visualization, problem-solving, and programming.</h2>
       </div>
 
       <div>
