@@ -52,7 +52,7 @@ const Header = () => (
           {/* hire me, insert a button if want to */}
         </div>
         <div className="CVdownload-button">
-          <a href = "https://drive.google.com/u/0/uc?id=14oVc0pQ-lry4iDLgu_NPT3Vm675YTR_w&export=download">
+          <a href = "https://drive.google.com/u/0/uc?id=1XIEufG7fdbZT_wjIDdydWd8zeF3qbbnw&export=download">
             <button type='submit'>
               Download CV
             </button>
